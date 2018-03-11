@@ -1,0 +1,218 @@
+* {box-sizing: border-box;}
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif; margin-left: 10%;margin-right: 10%}
+
+#monthblock {
+  padding: 100px 50px;
+  background: #1abc9c;
+  text-align:center;
+}
+
+#monthblock ul{
+  margin:0;
+  padding: 0;
+}
+
+#currmonth{
+  color: white;
+  font-size: 40px;
+}
+#curryear{
+  color: white;
+  font-size: 30px;
+}
+#prev{
+  color: white;
+  font-size: 40px;
+  float: left;
+  border-radius: 100%;
+}
+
+#prev:hover{
+  color:#1abc9c;
+  background-color: white;
+  cursor:pointer;
+}
+#next{
+  color: white;
+  font-size: 40px;
+  float: right;
+  border-radius: 100%;
+}
+
+#next:hover{
+  color:#1abc9c;
+  background-color: white;
+  cursor: pointer;
+}
+
+.weekday{
+  margin:0;
+  padding: 10px 0;
+  background-color: #ddd;
+}
+
+.weekday li{
+  display: inline-block;
+  width: 13%;
+  color: #666;
+  text-align: center;
+}
+
+.days{
+  padding: 10px 0;
+  background: #eee;
+  margin:0;
+}
+
+.days li{
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.days li:hover{
+  cursor: pointer;
+}
+#DetBlock{
+  width: 70%;
+  height: 50px;
+  background-color: #ddd;
+  float: left;
+  margin-top: 20px;
+}
+#detdate{
+  display: inline-block;
+  width: 10%;
+  text-align: center;
+  padding: 10px 0;
+}
+
+#detinfo{
+  display: inline-block;
+  width:45%;
+  text-align: center;
+  padding: 10px 0;
+}
+
+#dettype{
+  display: inline-block;
+  width:15%;
+  text-align:center;
+  padding: 10px 0;
+}
+
+#detcash{
+  display: inline-block;
+  width:25%;
+  text-align: center;
+  padding: 10px 0;
+}
+
+#data{
+  margin:0;
+  padding: 0;
+  width:70%;
+  background-color: #eee;
+  float:left;
+}
+#datalist{
+  margin: 0;
+  padding: 0;
+}
+.DataDate{
+  display: inline-block;
+  width: 15%;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.DataInfo{
+  display: inline-block;
+  width:40%;
+  text-align: center;
+  padding: 10px 0;
+}
+.DataType{
+  display:inline-block;
+  width:20%;
+  text-align:center;
+  padding: 10px 0;
+}
+.DataCash{
+  display: inline-block;
+  width:25%;
+  text-align: right;
+  padding: 10px 0;
+}
+
+#buttonSection{
+  align-items: center;
+  vertical-align: 30px;
+  float: right;
+  width: 30%;
+}
+
+.button{
+  margin-left: 20px;
+  margin-top: 20px;
+  height:30px;
+  width:85%;
+  align-items: center;
+}
+
+#smallwindowadd{
+  display: none;
+  border: solid 2px;
+  background-color: white;
+  position: fixed;
+  top: 10%;
+  right: 10%;
+  width:80%;
+  height: 80%;
+}
+
+#crossadd{
+  position: absolute;
+  top:1%;
+  right: 2%;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#addcontent{
+  margin-left: 10%;
+  margin-top: 5%;
+  width: 80%;
+  font-size: 25px;
+}
+
+.contenttext{
+  margin-top:5px ;
+  margin-bottom: 5px;
+}
+.selects{
+  font-size: 25px;
+}
+
+.infotext{
+  font-size: 25px;
+  width: 75%;
+}
+
+#windowaddConfirm{
+  font-size: 25px;
+  width: 20%;
+  position: absolute;
+  bottom: 5%;
+  right: 30%;
+}
+
+#windowaddCancel{
+  font-size: 25px;
+  width: 20%;
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+}
