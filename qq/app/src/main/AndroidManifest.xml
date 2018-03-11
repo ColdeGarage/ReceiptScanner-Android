@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.qq">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon_notification"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ani">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ADD" />
+        <activity android:name=".piechart" />
+        <activity android:name=".class_select" />
+        <activity android:name=".QR_code" />
+        <activity android:name=".MainActivity" />
+
+        <receiver android:name=".AlarmReceiver2">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="com.e_eduspace.TIMER_ACTION_REPEATING" /> -->
+            <!-- <action android:name="com.e_eduspace.TIMER_ACTION" /> -->
+            <!-- </intent-filter> -->
+        </receiver>
+
+        <activity android:name=".sendDataToServer" />
+        <activity android:name=".Recipt"></activity>
+    </application>
+
+</manifest>
