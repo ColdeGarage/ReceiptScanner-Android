@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\user\\AndroidStudioProjects\\qq\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-zh-rTW\\values-zh-rTW.xml",
+            "outputFile": "/home/pohan/AndroidStudioProjects/qq/C:\\Users\\user\\AndroidStudioProjects\\qq\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-zh-rTW\\values-zh-rTW.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\zxing-android-legacy-2.0.1.aar\\087efc931d6e8895bdffb9fe2bb92b55\\res\\values-zh-rTW\\values.xml",
+                    "source": "/home/pohan/AndroidStudioProjects/qq/C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\zxing-android-legacy-2.0.1.aar\\087efc931d6e8895bdffb9fe2bb92b55\\res\\values-zh-rTW\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,13 +21,45 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b99f85200237d2d48e7cc104f9dab44e\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "source": "/home/pohan/AndroidStudioProjects/qq/C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b99f85200237d2d48e7cc104f9dab44e\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
                         "startOffsets": "55,150,257,380,473,573,655,752,860,936,1012,1090,1186,1282,1377,1474,1569,1669,1782,1876,1954",
                         "endColumns": "94,106,122,92,99,81,96,107,75,75,77,95,95,94,96,94,99,112,93,77,100",
                         "endOffsets": "145,252,375,468,568,650,747,855,931,1007,1085,1181,1277,1372,1469,1564,1664,1777,1871,1949,2050"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/pohan/AndroidStudioProjects/qq/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-zh-rTW/values-zh-rTW.xml",
+            "map": [
+                {
+                    "source": "/home/pohan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/622667b929ef98606dad358fb271fe39/res/values-zh-rTW/values-zh-rTW.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,150,257,380,473,573,655,752,860,936,1012,1090,1186,1282,1377,1474,1569,1669,1782,1876,1954",
+                        "endColumns": "94,106,122,92,99,81,96,107,75,75,77,95,95,94,96,94,99,112,93,77,100",
+                        "endOffsets": "145,252,375,468,568,650,747,855,931,1007,1085,1181,1277,1372,1469,1564,1664,1777,1871,1949,2050"
+                    }
+                },
+                {
+                    "source": "/home/pohan/.gradle/caches/transforms-1/files-1.1/zxing-android-legacy-2.0.1.aar/f4c3ebf60d976c07ebf353bb22f96cb5/res/values-zh-rTW/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "198,253,308,365,420,473,536,598,661,721,779,837,905,971,1024,1078,1167,1229,1291,1367,1427,1487,1562",
+                        "endColumns": "54,54,56,54,52,62,61,62,59,57,57,67,65,52,53,88,61,61,75,59,59,74,66",
+                        "endOffsets": "248,303,360,415,468,531,593,656,716,774,832,900,966,1019,1073,1162,1224,1286,1362,1422,1482,1557,1624"
+                    },
+                    "to": {
+                        "startLines": "23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "2055,2110,2165,2222,2277,2330,2393,2455,2518,2578,2636,2694,2762,2828,2881,2935,3024,3086,3148,3224,3284,3344,3419",
+                        "endColumns": "54,54,56,54,52,62,61,62,59,57,57,67,65,52,53,88,61,61,75,59,59,74,66",
+                        "endOffsets": "2105,2160,2217,2272,2325,2388,2450,2513,2573,2631,2689,2757,2823,2876,2930,3019,3081,3143,3219,3279,3339,3414,3481"
                     }
                 }
             ]

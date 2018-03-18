@@ -1,19 +1,19 @@
-#Fri Jan 19 16:17:26 CST 2018
+#Sun Mar 18 16:28:44 CST 2018
+path.1=classes.dex
+path.0=classes.dex
 renamed.5=classes6.dex
 renamed.4=classes5.dex
 renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
-base.5=C\:\\Users\\user\\AndroidStudioProjects\\qq\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\30
-base.4=C\:\\Users\\user\\AndroidStudioProjects\\qq\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\35
-base.3=C\:\\Users\\user\\AndroidStudioProjects\\qq\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\33
-base.2=C\:\\Users\\user\\AndroidStudioProjects\\qq\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\32
-base.1=C\:\\Users\\user\\AndroidStudioProjects\\qq\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\31
-base.0=C\:\\Users\\user\\AndroidStudioProjects\\qq\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\34
-file.5=C\:\\Users\\user\\AndroidStudioProjects\\qq\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\30\\classes.dex
-file.4=C\:\\Users\\user\\AndroidStudioProjects\\qq\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\35\\classes.dex
-file.3=C\:\\Users\\user\\AndroidStudioProjects\\qq\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\33\\classes.dex
-file.2=C\:\\Users\\user\\AndroidStudioProjects\\qq\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\32\\classes.dex
-file.1=C\:\\Users\\user\\AndroidStudioProjects\\qq\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\31\\classes.dex
-file.0=C\:\\Users\\user\\AndroidStudioProjects\\qq\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\34\\classes.dex
+base.5=/home/pohan/AndroidStudioProjects/qq/app/build/intermediates/transforms/dexMerger/debug/40
+base.4=/home/pohan/AndroidStudioProjects/qq/app/build/intermediates/transforms/dexMerger/debug/37
+base.3=/home/pohan/AndroidStudioProjects/qq/app/build/intermediates/transforms/dexMerger/debug/41
+base.2=/home/pohan/AndroidStudioProjects/qq/app/build/intermediates/transforms/dexMerger/debug/38
+base.1=/home/pohan/AndroidStudioProjects/qq/app/build/intermediates/transforms/dexMerger/debug/42
+base.0=/home/pohan/AndroidStudioProjects/qq/app/build/intermediates/transforms/dexMerger/debug/39
+path.5=classes.dex
+path.4=classes.dex
+path.3=classes.dex
+path.2=classes.dex

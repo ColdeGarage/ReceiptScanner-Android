@@ -1,10 +1,26 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\user\\AndroidStudioProjects\\qq\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-v22\\values-v22.xml",
+            "outputFile": "/home/pohan/AndroidStudioProjects/qq/C:\\Users\\user\\AndroidStudioProjects\\qq\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-v22\\values-v22.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b99f85200237d2d48e7cc104f9dab44e\\res\\values-v22\\values-v22.xml",
+                    "source": "/home/pohan/AndroidStudioProjects/qq/C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b99f85200237d2d48e7cc104f9dab44e\\res\\values-v22\\values-v22.xml",
+                    "from": {
+                        "startLines": "2,3,4,9",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,130,217,553",
+                        "endLines": "2,3,8,13",
+                        "endColumns": "74,86,12,12",
+                        "endOffsets": "125,212,548,896"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/pohan/AndroidStudioProjects/qq/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-v22/values-v22.xml",
+            "map": [
+                {
+                    "source": "/home/pohan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/622667b929ef98606dad358fb271fe39/res/values-v22/values-v22.xml",
                     "from": {
                         "startLines": "2,3,4,9",
                         "startColumns": "4,4,4,4",

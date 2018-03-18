@@ -1,44 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/addd"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/b111"
     tools:context="com.example.qq.ADD"
-    android:background="@drawable/b111">
+    tools:layout_editor_absoluteY="81dp">
 
 
     <EditText
         android:id="@+id/class_add_et"
-        android:layout_width="wrap_content"
+        android:layout_width="215dp"
         android:layout_height="wrap_content"
         android:layout_above="@+id/money_add_et"
         android:layout_alignStart="@+id/money_add_et"
-        android:layout_marginBottom="32dp"
+        android:layout_marginBottom="65dp"
+        android:layout_marginStart="8dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:textColor="@color/zxinglegacy_encode_view"
+        android:textColor="#000000"
         app:layout_constraintBottom_toTopOf="@+id/name_add_et"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/class_add_tv"
-        app:layout_constraintTop_toBottomOf="@+id/money_add_et"
-        app:layout_constraintVertical_bias="0.54" />
+        app:layout_constraintStart_toEndOf="@+id/class_add_tv" />
 
     <EditText
         android:id="@+id/money_add_et"
-        android:layout_width="wrap_content"
+        android:layout_width="215dp"
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/name_add_et"
         android:layout_centerVertical="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="65dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:textColor="@color/zxinglegacy_encode_view"
+        android:textColor="#F5F5F5"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/date_add_tv" />
+        app:layout_constraintStart_toEndOf="@+id/money_add_tv"
+        app:layout_constraintTop_toBottomOf="@+id/name_add_et" />
 
     <Button
         android:id="@+id/save_add_bt"
@@ -47,11 +47,10 @@
         android:layout_alignBaseline="@+id/cancel_add_bt"
         android:layout_alignBottom="@+id/cancel_add_bt"
         android:layout_alignStart="@+id/class_add_tv"
+        android:layout_marginStart="32dp"
         android:text="儲存"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/name_add_tv"
-        app:layout_constraintVertical_bias="0.92" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/cancel_add_bt"
@@ -59,15 +58,10 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginBottom="12dp"
-        android:layout_marginEnd="12dp"
+        android:layout_marginEnd="32dp"
         android:text="取消"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.483"
-        app:layout_constraintStart_toEndOf="@+id/save_add_bt"
-        app:layout_constraintTop_toBottomOf="@+id/name_add_et"
-        app:layout_constraintVertical_bias="0.757" />
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <TextView
         android:id="@+id/class_add_tv"
@@ -76,16 +70,17 @@
         android:layout_alignBottom="@+id/class_add_et"
         android:layout_alignParentStart="true"
         android:layout_alignTop="@+id/class_add_et"
-        android:layout_marginStart="19dp"
+        android:layout_marginBottom="80dp"
+        android:layout_marginStart="16dp"
         android:layout_toStartOf="@+id/date_add_tv"
         android:text="類別"
         android:textAlignment="center"
-        android:textColorLink="@color/zxinglegacy_encode_view"
+        android:textColor="#000000"
         android:textSize="24sp"
         android:textStyle="bold"
         android:typeface="normal"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/money_add_tv" />
+        app:layout_constraintBottom_toTopOf="@+id/name_add_tv"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/money_add_tv"
@@ -95,16 +90,15 @@
         android:layout_alignEnd="@+id/name_add_tv"
         android:layout_alignStart="@+id/name_add_tv"
         android:layout_alignTop="@+id/money_add_et"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="80dp"
         android:text="金額"
         android:textAlignment="center"
-        android:textColorLink="@color/zxinglegacy_encode_view"
+        android:textColor="#F5F5F5"
         android:textSize="24sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toStartOf="@+id/money_add_et"
-        app:layout_constraintHorizontal_bias="0.084"
-        app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/name_add_tv" />
 
     <TextView
         android:id="@+id/date_add_tv"
@@ -112,49 +106,55 @@
         android:layout_height="60dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="63dp"
+        android:layout_marginTop="32dp"
         android:text="TextView"
         android:textAlignment="center"
-        android:textColorLink="@color/zxinglegacy_encode_view"
+        android:textColor="#F5F5F5"
         android:textSize="30sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.429"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/name_add_tv"
         android:layout_width="50dp"
-        android:layout_height="30dp"
+        android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/name_add_et"
         android:layout_alignEnd="@+id/class_add_tv"
         android:layout_alignStart="@+id/save_add_bt"
         android:layout_alignTop="@+id/name_add_et"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
         android:text="名稱"
         android:textAlignment="center"
         android:textAllCaps="true"
-        android:textColorLink="@color/zxinglegacy_encode_view"
+        android:textColor="#F5F5F5"
         android:textSize="24sp"
         android:textStyle="bold"
         android:typeface="normal"
-        app:layout_constraintEnd_toStartOf="@+id/name_add_et"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/class_add_tv" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/name_add_et"
-        android:layout_width="wrap_content"
+        android:layout_width="215dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/money_add_et"
-        android:layout_marginStart="23dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
         android:layout_toEndOf="@+id/save_add_bt"
         android:ems="10"
         android:inputType="textPersonName"
-        android:textColor="@color/zxinglegacy_encode_view"
-        android:textColorLink="@color/zxinglegacy_encode_view"
+        android:textColor="#F5F5F5"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/name_add_tv"
+        app:layout_constraintTop_toTopOf="parent" />
 
-</RelativeLayout>
+</android.support.constraint.ConstraintLayout>
