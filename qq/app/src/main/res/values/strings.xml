@@ -1,9 +1,0 @@
-<resources>
-    <string name="app_name">ADAPTER</string>
-    <string name="introduce">welcome to adapter</string>
-    <string name="input">input</string>
-    <string name="scanQR">掃左邊二維碼\n \n \t\t\t QRcode</string>
-    <string name="okButton">OK</string>
-    <string name="Scan">scan</string>
-    <string name="number">number</string>
-</resources>
