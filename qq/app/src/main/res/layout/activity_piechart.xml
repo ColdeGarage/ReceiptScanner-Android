@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gggg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/laptop"
+    tools:context="com.example.qq.piechart">
+
+  <com.github.mikephil.charting.charts.PieChart
+      android:id="@+id/PieChart"
+      android:layout_width="396dp"
+      android:layout_height="235dp"
+      android:layout_marginTop="3dp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"></com.github.mikephil.charting.charts.PieChart>
+
+  <android.support.v7.widget.RecyclerView
+      android:id="@+id/rv_pc"
+      android:layout_width="361dp"
+      android:layout_height="210dp"
+      app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.521"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toRightOf="parent"
+      app:layout_constraintStart_toStartOf="parent" />
+
+  <android.support.design.widget.BottomNavigationView
+      android:id="@+id/bottomNavigationView"
+      android:layout_width="384dp"
+      android:layout_height="56dp"
+      android:layout_alignParentBottom="true"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toRightOf="parent"
+      app:menu="@menu/bottombar" />
+</android.support.constraint.ConstraintLayout>

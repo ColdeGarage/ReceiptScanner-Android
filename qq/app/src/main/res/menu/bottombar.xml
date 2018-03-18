@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/delete"
+        android:icon="@drawable/icons8_calendar_40"
+        android:title="message" />
+    <item
+        android:id="@+id/pie"
+        android:icon="@drawable/icons8_pie_chart_40"
+        android:title="call" />
+    <item
+        android:id="@+id/qr3"
+        android:icon="@drawable/icons8_qr_code_40"
+        android:title="me" />
+    <item
+        android:id="@+id/Recipt"
+        android:icon="@drawable/ic_1"
+        android:title="recipt" />
+
+</menu>

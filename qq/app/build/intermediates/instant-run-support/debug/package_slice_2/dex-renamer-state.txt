@@ -1,0 +1,4 @@
+#Sun Mar 18 16:21:28 CST 2018
+base.0=/home/pohan/AndroidStudioProjects/qq/app/build/intermediates/transforms/dexMerger/debug/21
+path.0=classes.dex
+renamed.0=classes.dex
