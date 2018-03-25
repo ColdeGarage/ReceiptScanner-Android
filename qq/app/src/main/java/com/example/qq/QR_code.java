@@ -65,16 +65,19 @@ public class QR_code extends AppCompatActivity {
                         if (item.getTitle().toString().equals("message")) {
                             Intent intent = new Intent(QR_code.this,MainActivity.class);
                             startActivity(intent);
+                            overridePendingTransition(R.anim.left_to_right,R.anim.left_to_right_end);
                             finish();
                         }
                         else if (item.getTitle().toString().equals("call")) {
                             Intent intent = new Intent(QR_code.this,piechart.class);
                             startActivity(intent);
+                            overridePendingTransition(R.anim.left_to_right,R.anim.left_to_right_end);
                             finish();
                         }
                         else if (item.getTitle().toString().equals("recipt")) {
                             Intent intent = new Intent(QR_code.this,Recipt.class);
                             startActivity(intent);
+                            overridePendingTransition(R.anim.right_to_left,R.anim.right_to_left_end);
                             finish();
                         }
                         else;
@@ -281,6 +284,7 @@ public class QR_code extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(QR_code.this,class_select.class);
                 startActivityForResult(intent,4);
+                overridePendingTransition(R.anim.left_to_right,0);
             }
         });
     }

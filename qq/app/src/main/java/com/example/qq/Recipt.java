@@ -63,16 +63,19 @@ public class Recipt extends AppCompatActivity {
                         if (item.getTitle().toString().equals("message")) {
                             Intent intent = new Intent(Recipt.this,MainActivity.class);
                             startActivity(intent);
+                            overridePendingTransition(R.anim.left_to_right,R.anim.left_to_right_end);
                             finish();
                         }
                         else if (item.getTitle().toString().equals("me")) {
                             Intent intent = new Intent(Recipt.this,QR_code.class);
                             startActivity(intent);
+                            overridePendingTransition(R.anim.left_to_right,R.anim.left_to_right_end);
                             finish();
                         }
                         else if (item.getTitle().toString().equals("call")) {
                             Intent intent = new Intent(Recipt.this,piechart.class);
                             startActivity(intent);
+                            overridePendingTransition(R.anim.left_to_right,R.anim.left_to_right_end);
                             finish();
                         }
                         else;
@@ -101,16 +104,19 @@ public class Recipt extends AppCompatActivity {
                         if (item.getTitle().toString().equals("message")) {
                             Intent intent = new Intent(Recipt.this,MainActivity.class);
                             startActivity(intent);
+                            overridePendingTransition(R.anim.left_to_right,R.anim.left_to_right_end);
                             finish();
                         }
                         else if (item.getTitle().toString().equals("me")) {
                             Intent intent = new Intent(Recipt.this,QR_code.class);
                             startActivity(intent);
+                            overridePendingTransition(R.anim.left_to_right,R.anim.left_to_right_end);
                             finish();
                         }
                         else if (item.getTitle().toString().equals("call")) {
                             Intent intent = new Intent(Recipt.this,piechart.class);
                             startActivity(intent);
+                            overridePendingTransition(R.anim.left_to_right,R.anim.left_to_right_end);
                             finish();
                         }
                         else;

@@ -15,7 +15,9 @@
       android:layout_marginTop="3dp"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toTopOf="parent"></com.github.mikephil.charting.charts.PieChart>
+      app:layout_constraintTop_toTopOf="parent">
+
+  </com.github.mikephil.charting.charts.PieChart>
 
   <android.support.v7.widget.RecyclerView
       android:id="@+id/rv_pc"

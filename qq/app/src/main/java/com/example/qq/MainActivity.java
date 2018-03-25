@@ -17,6 +17,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
+import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -57,6 +58,8 @@ public class MainActivity extends AppCompatActivity {
     private SimpleDateFormat sdf3 = new SimpleDateFormat("YYYY-MM-DD");
     private SimpleDateFormat sdf4 = new SimpleDateFormat("DD");
     private static final int RequestCode=1;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
@@ -78,16 +81,19 @@ public class MainActivity extends AppCompatActivity {
                         if (item.getTitle().toString().equals("call")) {
                             Intent intent = new Intent(MainActivity.this,piechart.class);
                             startActivity(intent);
+                            overridePendingTransition(R.anim.right_to_left,R.anim.right_to_left_end);
                             finish();
                         }
                         else if (item.getTitle().toString().equals("me")) {
                             Intent intent = new Intent(MainActivity.this,QR_code.class);
                             startActivity(intent);
+                            overridePendingTransition(R.anim.right_to_left,R.anim.right_to_left_end);
                             finish();
                         }
                         else if (item.getTitle().toString().equals("recipt")) {
                             Intent intent = new Intent(MainActivity.this,Recipt.class);
                             startActivity(intent);
+                            overridePendingTransition(R.anim.right_to_left,R.anim.right_to_left_end);
                             finish();
                         }
                         else;
@@ -163,8 +169,8 @@ public class MainActivity extends AppCompatActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.actionbar_item, menu);
-        return super.onCreateOptionsMenu(menu);
-    }
+        return super.onCreateOptionsMenu(menu);}
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         if (item.getItemId()== R.id.action_add) {
@@ -174,6 +180,9 @@ public class MainActivity extends AppCompatActivity {
             intent.putExtra(year_intent,YMD);
             intent.putExtra(day_intent,day_d);
             this.startActivityForResult(intent,RequestCode);
+            overridePendingTransition(R.anim.top_to_bottom,R.anim.top_to_bottom_end);
+            finish();
+
         }
         else;
         return super.onOptionsItemSelected(item);

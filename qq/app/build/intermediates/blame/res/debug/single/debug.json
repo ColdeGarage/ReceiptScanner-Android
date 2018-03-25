@@ -40,6 +40,10 @@
         "source": "/home/pohan/AndroidStudioProjects/qq/C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b99f85200237d2d48e7cc104f9dab44e\\res\\drawable\\abc_ratingbar_indicator_material.xml"
     },
     {
+        "merged": "/home/pohan/AndroidStudioProjects/qq/app/build/intermediates/res/merged/debug/anim_left_to_right_end.xml.flat",
+        "source": "/home/pohan/AndroidStudioProjects/qq/app/src/main/res/anim/left_to_right_end.xml"
+    },
+    {
         "merged": "/home/pohan/AndroidStudioProjects/qq/C:\\Users\\user\\AndroidStudioProjects\\qq\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_design_ic_visibility.png.flat",
         "source": "/home/pohan/AndroidStudioProjects/qq/C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\61e5e9d9e4b644eaf65f87bbaf8244f8\\res\\drawable-hdpi-v4\\design_ic_visibility.png"
     },
@@ -1552,6 +1556,10 @@
         "source": "/home/pohan/AndroidStudioProjects/qq/C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b99f85200237d2d48e7cc104f9dab44e\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_48dp.png"
     },
     {
+        "merged": "/home/pohan/AndroidStudioProjects/qq/app/build/intermediates/res/merged/debug/anim_bottom_to_top_end.xml.flat",
+        "source": "/home/pohan/AndroidStudioProjects/qq/app/src/main/res/anim/bottom_to_top_end.xml"
+    },
+    {
         "merged": "/home/pohan/AndroidStudioProjects/qq/C:\\Users\\user\\AndroidStudioProjects\\qq\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_tint_switch_track.xml.flat",
         "source": "/home/pohan/AndroidStudioProjects/qq/C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b99f85200237d2d48e7cc104f9dab44e\\res\\color-v23\\abc_tint_switch_track.xml"
     },
@@ -1654,6 +1662,10 @@
     {
         "merged": "/home/pohan/AndroidStudioProjects/qq/C:\\Users\\user\\AndroidStudioProjects\\qq\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-mdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
         "source": "/home/pohan/AndroidStudioProjects/qq/C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b99f85200237d2d48e7cc104f9dab44e\\res\\drawable-ldrtl-mdpi-v17\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "/home/pohan/AndroidStudioProjects/qq/app/build/intermediates/res/merged/debug/anim_left_to_right.xml.flat",
+        "source": "/home/pohan/AndroidStudioProjects/qq/app/src/main/res/anim/left_to_right.xml"
     },
     {
         "merged": "/home/pohan/AndroidStudioProjects/qq/app/build/intermediates/res/merged/debug/anim_abc_shrink_fade_out_from_bottom.xml.flat",
@@ -2126,6 +2138,10 @@
     {
         "merged": "/home/pohan/AndroidStudioProjects/qq/C:\\Users\\user\\AndroidStudioProjects\\qq\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media.xml.flat",
         "source": "/home/pohan/AndroidStudioProjects/qq/C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\ced5e1ff3307b89dec12f2dcecb5ba7f\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "/home/pohan/AndroidStudioProjects/qq/app/build/intermediates/res/merged/debug/anim_bottom_to_top.xml.flat",
+        "source": "/home/pohan/AndroidStudioProjects/qq/app/src/main/res/anim/bottom_to_top.xml"
     },
     {
         "merged": "/home/pohan/AndroidStudioProjects/qq/app/build/intermediates/res/merged/debug/layout_abc_action_menu_item_layout.xml.flat",
@@ -3048,6 +3064,10 @@
         "source": "/home/pohan/AndroidStudioProjects/qq/app/src/main/res/drawable/icons8_calendar_50.png"
     },
     {
+        "merged": "/home/pohan/AndroidStudioProjects/qq/app/build/intermediates/res/merged/debug/anim_top_to_bottom.xml.flat",
+        "source": "/home/pohan/AndroidStudioProjects/qq/app/src/main/res/anim/top_to_bottom.xml"
+    },
+    {
         "merged": "/home/pohan/AndroidStudioProjects/qq/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
         "source": "/home/pohan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/622667b929ef98606dad358fb271fe39/res/drawable-mdpi-v4/abc_cab_background_top_mtrl_alpha.9.png"
     },
@@ -3260,6 +3280,10 @@
         "source": "/home/pohan/AndroidStudioProjects/qq/C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b99f85200237d2d48e7cc104f9dab44e\\res\\drawable-mdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
     },
     {
+        "merged": "/home/pohan/AndroidStudioProjects/qq/app/build/intermediates/res/merged/debug/anim_right_to_left_end.xml.flat",
+        "source": "/home/pohan/AndroidStudioProjects/qq/app/src/main/res/anim/right_to_left_end.xml"
+    },
+    {
         "merged": "/home/pohan/AndroidStudioProjects/qq/C:\\Users\\user\\AndroidStudioProjects\\qq\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icons8_cash_in_hand_50.png.flat",
         "source": "/home/pohan/AndroidStudioProjects/qq/C:\\Users\\user\\AndroidStudioProjects\\qq\\app\\src\\main\\res\\drawable\\icons8_cash_in_hand_50.png"
     },
@@ -3374,6 +3398,10 @@
     {
         "merged": "/home/pohan/AndroidStudioProjects/qq/C:\\Users\\user\\AndroidStudioProjects\\qq\\app\\build\\intermediates\\res\\merged\\debug\\menu_actionbar_item.xml.flat",
         "source": "/home/pohan/AndroidStudioProjects/qq/C:\\Users\\user\\AndroidStudioProjects\\qq\\app\\src\\main\\res\\menu\\actionbar_item.xml"
+    },
+    {
+        "merged": "/home/pohan/AndroidStudioProjects/qq/app/build/intermediates/res/merged/debug/anim_top_to_bottom_end.xml.flat",
+        "source": "/home/pohan/AndroidStudioProjects/qq/app/src/main/res/anim/top_to_bottom_end.xml"
     },
     {
         "merged": "/home/pohan/AndroidStudioProjects/qq/C:\\Users\\user\\AndroidStudioProjects\\qq\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_list_selector_background_transition_holo_light.xml.flat",
@@ -3554,6 +3582,10 @@
     {
         "merged": "/home/pohan/AndroidStudioProjects/qq/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
         "source": "/home/pohan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/622667b929ef98606dad358fb271fe39/res/drawable-mdpi-v4/abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "/home/pohan/AndroidStudioProjects/qq/app/build/intermediates/res/merged/debug/anim_right_to_left.xml.flat",
+        "source": "/home/pohan/AndroidStudioProjects/qq/app/src/main/res/anim/right_to_left.xml"
     },
     {
         "merged": "/home/pohan/AndroidStudioProjects/qq/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",

@@ -19,6 +19,7 @@ public class ani extends AppCompatActivity {
             public void run() {
                 final Intent mainIntent = new Intent(ani.this, MainActivity.class);
                 startActivity(mainIntent);
+                overridePendingTransition(R.anim.right_to_left,R.anim.right_to_left_end);
                 finish();
             }
         }, 3000);

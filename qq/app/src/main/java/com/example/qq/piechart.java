@@ -52,7 +52,6 @@ public class piechart extends AppCompatActivity {
         setContentView(R.layout.activity_piechart);
 
         View v = findViewById(R.id.gggg);
-        v.getBackground().setAlpha(140);
         rv = findViewById(R.id.rv_pc);
         rv.setLayoutManager(new LinearLayoutManager(this));
         rv.setAdapter(myAdapter2);
@@ -66,16 +65,20 @@ public class piechart extends AppCompatActivity {
                         if (item.getTitle().toString().equals("message")) {
                             Intent intent = new Intent(piechart.this,MainActivity.class);
                             startActivity(intent);
+                            overridePendingTransition(R.anim.left_to_right,R.anim.left_to_right_end);
                             finish();
                         }
                         else if (item.getTitle().toString().equals("me")) {
                             Intent intent = new Intent(piechart.this,QR_code.class);
                             startActivity(intent);
+                            overridePendingTransition(R.anim.right_to_left,R.anim.right_to_left_end);
                             finish();
+
                         }
                         else if (item.getTitle().toString().equals("recipt")) {
                             Intent intent = new Intent(piechart.this,Recipt.class);
                             startActivity(intent);
+                            overridePendingTransition(R.anim.right_to_left,R.anim.right_to_left_end);
                             finish();
                         }
                         else;
